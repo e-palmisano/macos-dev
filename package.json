@@ -1,6 +1,6 @@
 {
   "name": "macos-dev-code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pi skill for native macOS development with SwiftUI, AppKit, and Liquid Glass. Bundles curated Apple Developer documentation (snapshot 2026-05-30).",
   "author": {
     "name": "Enzo Pio Palmisano",
