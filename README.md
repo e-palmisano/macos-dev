@@ -14,6 +14,7 @@
   </a>
   <img src="https://img.shields.io/badge/version-0.1.0-green.svg" alt="Version">
   <img src="https://img.shields.io/badge/platform-macOS-lightgrey.svg" alt="Platform">
+  <img src="https://img.shields.io/npm/v/macos-dev-code.svg" alt="npm version">
   <img src="https://img.shields.io/badge/Claude%20Code-plugin-blueviolet.svg" alt="Claude Code Plugin">
   <img src="https://img.shields.io/badge/Pi-package-orange.svg" alt="Pi Package">
 </p>
