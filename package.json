@@ -1,0 +1,42 @@
+{
+  "name": "macos-dev-code",
+  "version": "0.1.1",
+  "description": "Pi skill for native macOS development with SwiftUI, AppKit, and Liquid Glass. Bundles curated Apple Developer documentation (snapshot 2026-05-30).",
+  "author": {
+    "name": "Enzo Pio Palmisano",
+    "email": "e.palmisano@reply.it"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "macos",
+    "swiftui",
+    "appkit",
+    "liquid-glass",
+    "apple",
+    "ui"
+  ],
+  "files": [
+    "skills/",
+    "bin/",
+    ".claude-plugin/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "bin": {
+    "macos-dev-code": "./bin/setup.mjs"
+  },
+  "scripts": {
+    "postinstall": "echo '🍎 macos-dev-code installed! Run \"macos-dev-code\" to set up for Claude Code and/or Pi.'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-palmisano/macos-dev.git"
+  }
+}
