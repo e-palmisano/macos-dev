@@ -184,7 +184,7 @@ async function installPi() {
   console.log(DIM + `   Copying to ${targetDir} ...` + RESET);
   fs.mkdirSync(targetDir, { recursive: true });
 
-  const source = path.join(PKG_ROOT, 'macos-dev', 'skills', 'macos-development');
+  const source = path.join(PKG_ROOT, 'skills', 'macos-development');
   copyDir(source, targetDir);
 
   console.log(GREEN + '   ✅ Copied to ~/.pi/agent/skills/macos-development' + RESET);
@@ -217,7 +217,7 @@ async function installClaudeCode() {
     if (copyLocal.toLowerCase() !== 'n') {
       const target = path.join(foundDir, 'macos-dev');
       fs.mkdirSync(target, { recursive: true });
-      copyDir(path.join(PKG_ROOT, 'macos-dev'), target);
+      copyDir(PKG_ROOT, target);
       console.log(GREEN + `   ✅ Copied to ${target}` + RESET);
       if (claudeCli) {
         console.log(YELLOW + '   Start Claude Code with: claude --plugin-dir ' + target + RESET);
