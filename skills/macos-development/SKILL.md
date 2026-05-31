@@ -1,5 +1,5 @@
 ---
-name: macOS Development (SwiftUI + AppKit)
+name: macos-development-swiftui-appkit
 description: This skill should be used when the user asks to "build a macOS app", "create a Mac app", "write SwiftUI for macOS", or works with AppKit/SwiftUI APIs — including "adopt Liquid Glass", "glassEffect", "GlassEffectContainer", "backgroundExtensionEffect", "NavigationSplitView", "NSToolbar", "NSSplitViewController", "NSViewRepresentable", "NSHostingView/NSHostingController", "MenuBarExtra", "WindowGroup", "Settings scene", "NSTextField", "NSButton", "TextKit", "Icon Composer", or mixing AppKit and SwiftUI. Use it for window/scene structure, controls, layout, navigation, toolbars, drawing, accessibility, and the 2025/2026 design system on macOS.
 version: 0.1.0
 ---
